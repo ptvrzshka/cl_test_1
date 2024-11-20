@@ -15,6 +15,8 @@
 #include <algorithm>
 #include <cstring>
 
+#include <unistd.h>
+
 #if PLATFORM == PLATFORM_WINDOWS
 
 #include <winsock2.h>
